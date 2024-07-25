@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #1e4356;
+  background: #212431;
 }
 
 #header.header-transparent {
@@ -2353,11 +2353,34 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
-
-.post-nav {
-  display: flex;
-  justify-content: space-between;
+/* post-nav */
+.post .post-nav {
+   margin: 24px 0;
+   padding: 30px 0 0 0;
+   border-top: 1px solid #E0E0E0;
+   font: 16px/30px opensans-light, sans-serif;
 }
 .post-nav li {
-  width: 45%;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   width: 49%;
+   line-height: 30px;
+}
+.post-nav li a { color: #a3a3a3; }
+.post-nav li a:hover { color: #333; }
+.post-nav li strong {
+   font: 15px/30px opensans-bold, sans-serif;
+   text-transform: uppercase;
+   color: #11ABB0;
+   letter-spacing: 1px;
+   display: block;
+}
+.post-nav li.next {
+   float: right;
+   text-align: right;
+}
+.post-nav li.prev {
+   float: left;
+   text-align: left;
 }
