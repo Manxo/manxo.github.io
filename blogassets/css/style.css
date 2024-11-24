@@ -2403,3 +2403,11 @@ section {
   display: block; 
   text-align: left; /* Aligns the text after the <br> tag to the right */ 
 }
+.image-container { 
+  text-align: center; /* Centers the image horizontally */ 
+} 
+.img-fluid { 
+  max-width: 100%; 
+  height: auto; 
+  display: inline-block; /* Ensures the image follows the text-align property */ 
+}
