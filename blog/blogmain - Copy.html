@@ -78,9 +78,62 @@
     <!-- ======= Blog Section ======= -->
     <section class="blog" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8">
-            <article class="entry entries portfolio-item filter-kobocollect"><!-- 1-blog-kobocollect-launchexternalapp -->
+          <div class="col-lg-4"><!-- Start blog sidebar -->
+            <div class="sidebar">
+
+              <h3 class="sidebar-title">Search</h3>
+              <div class="sidebar-item search-form">
+                <form action="">
+                  <input type="text">
+                  <button type="submit"><i class="icofont-search"></i></button>
+                </form>
+              </div><!-- End sidebar search formn-->
+
+              <h3 class="sidebar-title">Categories</h3>
+              <div class="sidebar-item categories">
+                <ul>
+                  <li><a href="#">General <span>(1)</span></li>
+                  <li data-filter=".filter-commcare">CommCare <span>(0)</span></li>
+                  <li data-filter=".filter-kobocollect">KoboCollect <span>(1)</span></li>
+                  <li data-filter=".filter-gis">GIS <span>(0)</span></li>
+                  <li data-filter=".filter-kobocollect><a href="#">Technology <span>(0)</span></li>
+                  <li data-filter=".filter-kobocollect><a href="#">Data Analysis <span>(0)</span></li>
+                  <li data-filter=".filter-powerbi><a href="#">PowerBI & Visualization Dashboards <span>(2)</span></li>
+                </ul>
+
+              </div><!-- End sidebar categories-->
+
+              <h3 class="sidebar-title">Recent Posts</h3>
+              <div class="sidebar-item recent-posts">
+                <div class="post-item clearfix">
+                  <img src="../blogassets/img/3-3-powerbihelper.png" alt="">
+                  <h4><a href="Articles/3-blog-powerbi-powerbihelperexternaltool.html">Using PowerBI Helper</a></h4>
+                  <time datetime="2020-01-01">Nov 25, 2024</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="../blogassets/img/2-2-enterdata.png" alt="">
+                  <h4><a href="Articles/2-blog-powerbi-enterdataintotable.html">Entering data Into Tables in PowerBI</a></h4>
+                  <time datetime="2024-11-24">Nov 24, 2024</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="../blogassets/img/1-1-xlsformexternal-main.png" alt="">
+                  <h4><a href="Articles/1-blog-kobocollect-launchexternalapp.html">Launching other external Android applications from a question in KoboCollect</a></h4>
+                  <time datetime="2024-06-10">Jun 10, 2024</time>
+                </div>
+              </div><!-- End sidebar recent posts-->
+              
+            </div><!-- End sidebar -->
+
+          </div><!-- End blog sidebar -->
+
+          <div class="col-lg-8 entries portfolio-item filter-powerbi">
+          <div class="row"><!-- blog entries -->
+
+          <div class="col-lg-8 entries portfolio-item filter-kobocollect">
+
+            <article class="entry">
 
               <div class="entry-img">
                 <img src="../blogassets/img/1-1-xlsformexternal-main.png" alt="" class="img-fluid">
@@ -108,9 +161,12 @@
                   <a href="Articles/1-blog-kobocollect-launchexternalapp.html">Read More</a>
                 </div>
               </div>
+              
             </article><!-- End blog entry -->
-
-            <article class="entry entries portfolio-item filter-powerbi"><!-- 2-blog-powerbi-enterdataintotable -->
+            
+          </div><!-- End blog entries list -->
+          
+            <article class="entry"><!-- 2-blog-powerbi-enterdataintotable -->
 
               <div class="entry-img">
                 <img src="../blogassets/img/2-1-enterdata.png" alt="" class="img-fluid">
@@ -132,13 +188,14 @@
                   In this article, we will look at how to Enter data directly into Tables in PowerBI, Name and edit or moditfy the table.
                 </p>
                 <div class="read-more">
-                  <a href="Articles/2-blog-powerbi-enterdataintotable.html">Read More</a>
+                  <a href="2-blog-powerbi-enterdataintotable.html">Read More</a>
                 </div>
               </div>
 
             </article><!-- End blog entry -->
 
-            <article class="entry entries portfolio-item filter-powerbi"><!-- 3-blog-powerbi-powerbihelperexternaltool -->
+            <article class="entry"><!-- 3-blog-powerbi-powerbihelperexternaltool -->
+
               <div class="entry-img">
                 <img src="../blogassets/img/3-1-powerbihelper.png" alt="" class="img-fluid">
               </div>
@@ -156,68 +213,19 @@
 
               <div class="entry-content">
                 <p>
-                  In this article we look at how to use PowerBi Helper to Enhance Your Power BI Desktop Experience with Power BI Helper for Seamless Metadata Management.
+                  In this article we look at how to use PowerBi Helper to Optimize our data model in PowerBi desktop.
                 </p>
                 <div class="read-more">
-                  <a href="Articles/3-blog-powerbi-powerbihelperexternaltool.html">Read More</a>
+                  <a href="Articles/1-blog-kobocollect-launchexternalapp.html">Read More</a>
                 </div>
               </div>
+
             </article><!-- End blog entry -->
 
           </div><!-- End blog entries list -->
-          
-          <div class="col-lg-4"><!-- Start blog sidebar -->
-            <div class="sidebar">
-  
-              <h3 class="sidebar-title">Search</h3>
-              <div class="sidebar-item search-form">
-                <form action="">
-                  <input type="text">
-                  <button type="submit"><i class="icofont-search"></i></button>
-                </form>
-              </div><!-- End sidebar search formn-->
-  
-              <h3 class="sidebar-title">Categories</h3>
-              <div class="row" data-aos="fade-up">
-              <div class="sidebar-item categories">
-                <ul id="portfolio-flters">
-                  <li data-filter="*" class="filter-active">General <span>(3)</span></li>
-                  <li data-filter=".filter-commcare">CommCare <span>(0)</span></li>
-                  <li data-filter=".filter-kobocollect">KoboCollect <span>(1)</span></li>
-                  <li data-filter=".filter-gis">GIS <span>(0)</span></li>
-                  <li data-filter=".filter-kobocollect>">Technology <span>(0)</span></li>
-                  <li data-filter=".filter-kobocollect">Data Analysis <span>(0)</span></li>
-                  <li data-filter=".filter-powerbi">PowerBI & Visualization Dashboards <span>(2)</span></li>
-                </ul>
-              </div>
-              </div><!-- End sidebar categories-->
-  
-              <h3 class="sidebar-title">Recent Posts</h3>
-              <div class="sidebar-item recent-posts">
-                <div class="post-item clearfix">
-                  <img src="../blogassets/img/3-3-powerbihelper.png" alt="">
-                  <h4><a href="Articles/3-blog-powerbi-powerbihelperexternaltool.html">Using PowerBI Helper</a></h4>
-                  <time datetime="2020-01-01">Nov 25, 2024</time>
-                </div>
-  
-                <div class="post-item clearfix">
-                  <img src="../blogassets/img/2-2-enterdata.png" alt="">
-                  <h4><a href="Articles/2-blog-powerbi-enterdataintotable.html">Entering data Into Tables in PowerBI</a></h4>
-                  <time datetime="2024-11-24">Nov 24, 2024</time>
-                </div>
-  
-                <div class="post-item clearfix">
-                  <img src="../blogassets/img/1-1-xlsformexternal-main.png" alt="">
-                  <h4><a href="Articles/1-blog-kobocollect-launchexternalapp.html">Launching other external Android applications from a question in KoboCollect</a></h4>
-                  <time datetime="2024-06-10">Jun 10, 2024</time>
-                </div>
-              </div><!-- End sidebar recent posts-->
-              
-            </div><!-- End sidebar -->
-          </div><!-- End blog sidebar -->
-          
-        </div><!-- End .row -->
 
+        </div><!-- End .row -->
+      
       </div><!-- End .container -->
 
     </section><!-- End Blog Section -->
