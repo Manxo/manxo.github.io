@@ -74,13 +74,15 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
+  height: 100%;
   width: 310px;
   transition: all ease-in-out 0.5s;
-  z-index: 9997;
+  z-index: 1;
   transition: all 0.5s;
-  padding: 0 15px;
+  padding: 0 5px;
   background: #040b14;
-  overflow-y: auto;
+  overflow-y:auto;
+  /* zoom: 0.8; Scales the element by 1.5x */
 }
 
 #header .profile img {
@@ -1076,14 +1078,14 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: #f4f6fd;
+  color: white; /* Ensures font color is white */
   font-size: 14px;
-  position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 100%; /* Makes footer span the full width */
+  text-align: center; /* Centers the text */
   z-index: 9999;
-  background: #040b14;
+  background: rgba(4, 11, 20); /* Optional: Slight transparency */
 }
 
 #footer .copyright {
